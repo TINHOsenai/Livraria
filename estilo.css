@@ -1,0 +1,82 @@
+ /*DOCUMENTO CSS */
+
+ body {
+ 	margin:  0;
+ 	padding: 0;
+ 	border: 0;
+ 	font-family: 'calibri', sans-serif;
+ 	background-color: #FFCD76 ;
+ 	color: #000000;
+
+ }
+ 	header {
+ 		background-color: #F28705;
+ 		height: 180px ;
+ 		padding-top:15px ;
+ 		display: flex;
+ 		flex-direction:column ;
+ 		align-items: center ;
+ 	}
+ 	 header figure {
+ 	 width: 300px;
+ 	 height: 100px;
+
+ 	 margin: 0;
+ 	 padding: 0;
+ 	 }
+
+ 	 main {
+ 	 	min-height: 400px;
+ 	 	margin: 0;
+ 	 	padding: 0;
+ 	 	display: flex;
+ 	 	justify-content:center ;
+ 	 	padding:20px ;
+ 	 	flex-wrap: wrap;
+ 	 	background-color: #F2F2F2;
+ 	 }
+ 	 .boxlivro{width: 380px;
+ 	 	height: 230px;
+ 	 	background-color: #FFCD76;
+ 	 	border-radius: 15px;
+ 	 	padding: 15px;
+ 	 	margin: 10px 10px 10px 50px;
+ 	 	display: flex;
+ 	 }
+ 	 .boxlivro:hover {
+ 	 	box-shadow: 9px 10px 10px #a4a4a4;
+ 	 }
+
+ 	 .boxlivro h2{margin: 0px 0px 10px 0px;
+ 	 	padding: 0;
+
+ 	 }
+ 	 .boxlivro p {
+
+ 	 }
+ 	 .boxlivro span {
+ 	 	font-size:30px ;
+ 	 	font-weight: 900px ;
+ 	 	margin: 0 0 0 40px;
+ 	 	padding: 0;
+ 	 }
+ 	 footer {
+ 	 	background-color: #F2B705   ;
+ 	 	height: 70px;
+ 	 	padding-top: 10px;
+ 	 	text-align: center;
+ 	 	display: flex;
+ 	 	justify-content: left;
+ 	 }
+ 	 footer figure {
+ 	 	width: 40px;
+ 	 	height: 50px;
+ 	 	background-color: #F2B705;
+ 	 	margin: 0 30px 0 50px;
+ 	 	padding: 0;
+ 	 }
+ 	 footer p {
+ 	 	font-weight: 800;
+ 	 	font-size: 20px ;
+ 	 	margin: 10px 0 0 0;
+ 	 }
